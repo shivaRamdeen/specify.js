@@ -1,4 +1,4 @@
-# secify.js
+# specify.js
 `specify.js` is a JQuery plugin that makes it simple to make html code appear based on the selected value of a dropdown.
 It is particularly usefull when a single form has the need for a **Please Specify** field that should only be shown when a condition is met.
 
