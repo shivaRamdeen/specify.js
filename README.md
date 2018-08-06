@@ -29,7 +29,7 @@ We wish to show an input field named **Please Specify** if the option **Other** 
 The DOM element that we want to show is defined in `<div id="thedom">`.
 We can easiy make the textbox for other appear in the form by including `specify.js` and initializing the `<select>` DOM object as follows:
 ```html
-<script src="coolname.js">
+<script src="specify.js">
 <script>
     $( document ).ready(function() {
         $('#dd').specify();
