@@ -6,6 +6,9 @@
         let e = this;
         let IdOfDomToAttach = this.data('conditionaldomid');
         let domelement = $('#'+IdOfDomToAttach).clone().show();
+        domelement.find(":input").each(function(){
+        	$(this).prop('required',true);
+        });
         this.change(function() {
         if($.trim(e.val()) === trigger)
         {   
